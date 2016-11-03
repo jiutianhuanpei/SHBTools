@@ -1,0 +1,6 @@
+framework module SHBTools {
+  umbrella header "SHBTools.h"
+
+  export *
+  module * { export * }
+}
