@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
    s.ios.vendored_frameworks = 'SHBTools.framework'
    s.frameworks  = "Foundation"
-   s.libraries   = "mp3lame"
+   #s.libraries   = "mp3lame"
 
    s.requires_arc = true
    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
